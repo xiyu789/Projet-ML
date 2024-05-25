@@ -3,15 +3,16 @@
 
 ## Description du problématique
 
-L'étude de la fraude bancaire revêt une importance, car elle contribue premièrement à la protection des économies et des banques contre des pertes inattendues. De plus, elle joue un rôle essentiel dans la gestion du risque. Cette recherche permet également de renforcer la résilience du système financier face aux menaces croissantes.
+L'étude de la fraude bancaire revêt une importance, parce qu'elle aide à la protection des économies individuelles et des banques contre des pertes inattendues. De plus, elle joue un rôle essentiel dans la gestion du risque. Cette recherche permet également de renforcer la résilience du système financier face aux menaces croissantes.
 
-Nous avons téléchargé un database de 1 million d'échantillons et de 31 variables explicatives, à la fois numériques et catégorielles, depuis le site de Kaggle. Notre approche analytique débute par le prétraitement des données, qui consiste à éliminer les colonnes présentant des variables redondantes ou un nombre significatif de données manquantes. Les variables catégorielles sont ensuite transformées en colonnes binaires, représentant chaque catégorie par des valeurs de 0 ou 1. Pour l'analyse initiale, nous appliquons une régression logistique, suivie de l'utilisation du modèle K-means pour le clustering non supervisé et de la forêt aléatoire pour la modélisation supervisée. Par ailleurs, afin de réduire le nombre de variables explicatives et de diminuer le temps d'exécution, nous mettons en œuvre une Analyse en Composantes Principales (PCA).
+Pour mener à bien cette étude, nous avons téléchargé une base de données de 1 million d'échantillons, accompagnés de 31 variables explicatives, à la fois numériques et catégorielles, depuis le site Kaggle.
 
+Notre approche analytique débute par le prétraitement des données, qui consiste à éliminer les colonnes présentant des variables redondantes ou un nombre significatif de données manquantes. Les variables catégorielles sont ensuite transformées en colonnes binaires, représentant chaque catégorie par des valeurs de 0 ou 1. Pour l'analyse initiale, nous appliquons une régression logistique, suivie de l'utilisation du modèle K-means pour le clustering non supervisé et de la forêt aléatoire pour la modélisation supervisée. Par ailleurs, afin de réduire le nombre de variables explicatives et de diminuer le temps d'exécution, nous mettons en œuvre une Analyse en Composantes Principales (PCA).
 
-## Détail du code
 
 ### Data:
-- `Base.xlsx`: Notre base de données pour ce projet "Bank Account Fraud Dataset Suite (NeurIPS 2022)", téléchargé via le site Kaggle. Ce base contient 6 différents données tabulaires synthétiques sur les fraudes aux comptes bancaires.
+- `Base.xlsx`: Notre base de données pour ce projet "Bank Account Fraud Dataset Suite (NeurIPS 2022)", téléchargé via le site Kaggle. Ce base est générée par un GAN à partir d'un ensemble de données réel sur les fraudes aux comptes bancaires.
+- Voici le lien: https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022/data
 
 ### Modules:
 -  **Préparation et visualisation des données**: on montre d'abord les types de nos variables, et la distribution de notre résultats (défaut / ne pas défaut).
