@@ -7,7 +7,7 @@ L'étude de la fraude bancaire revêt une importance, parce qu'elle aide à la p
 
 Pour mener à bien cette étude, nous avons téléchargé une base de données de 1 million d'échantillons, accompagnés de 31 variables explicatives, à la fois numériques et catégorielles, depuis le site Kaggle.
 
-Notre approche analytique débute par le prétraitement des données, qui consiste à éliminer les colonnes présentant des variables redondantes ou un nombre significatif de données manquantes. Les variables catégorielles sont ensuite transformées en colonnes binaires, représentant chaque catégorie par des valeurs de 0 ou 1. Pour l'analyse initiale, nous appliquons une régression logistique, suivie de l'utilisation du modèle K-means pour le clustering non supervisé et de la forêt aléatoire pour la modélisation supervisée. Par ailleurs, afin de réduire le nombre de variables explicatives et de diminuer le temps d'exécution, nous mettons en œuvre une Analyse en Composantes Principales (PCA).
+Notre approche analytique débute par le prétraitement des données, qui consiste à éliminer les colonnes présentant des variables redondantes ou un nombre significatif de données manquantes. Les variables catégorielles sont ensuite transformées en valeurs binaires, représentant chaque catégorie par des valeurs de 0 ou 1. Pour l'analyse initiale, nous appliquons une régression logistique, suivie de l'utilisation du modèle K-means pour le clustering non supervisé et de la forêt aléatoire pour la modélisation supervisée. Par ailleurs, afin de réduire le nombre de variables explicatives et de diminuer le temps d'exécution, nous mettons en œuvre une Analyse en Composantes Principales (PCA).
 
 
 ### Data:
