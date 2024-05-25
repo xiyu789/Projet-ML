@@ -2,7 +2,8 @@
 #### Xiyu XUE, Xinzhuo PENG
 
 ## Description du problématique
-Étudier la fraude bancaire est crucial car cela aide à protéger les économies et les individus contre les pertes financières et renforce la confiance dans le système financier. Cela permet également d'améliorer les mesures de sécurité et de prévention.
+Étudier la fraude bancaire est crucial car cela aide à protéger les économies et les individus contre les pertes financières et renforce la confiance dans le système financier. 
+Cela permet également d'améliorer les mesures de sécurité et de prévention.
 
 
 
