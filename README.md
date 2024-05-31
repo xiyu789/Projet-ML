@@ -15,19 +15,14 @@ Notre approche analytique débute par le prétraitement des données, qui consis
 - Voici le lien: https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022/data
 
 ### Modules:
--  **Préparation et visualisation des données**: on montre d'abord les types de nos variables, et la distribution de notre résultats (défaut / ne pas défaut).
+-  **Préparation et visualisation des données**: on montre d'abord les types de nos variables, et la distribution de notre résultats (fraud / n'est pas fraud).
 -  **Retraitement des données & Pré-processing**: dans cette partie là, on travaille sur la base, en supprimant des variables qui manquent une partie significative de data, analysant les corrélations entre variables, modifiant certains type de variables, etc.
--  **Training & Validation**: 
+-  **Training & Validation**: on commence par la préparation des données pour l'entraînement et la validation du modèle de détection de fraude. Les données sont normalisées, les variables catégorielles sont encodées, et les ensembles d'entraînement et de test sont créés en tenant compte du déséquilibre des classes. Ces préparations sont cruciales pour assurer que le modèle de machine learning puisse apprendre efficacement et être évalué de manière juste.
 
-## Getting Started
-To get started with this project, clone this repository and ensure you have the necessary software installed to run MATLAB `.m` files.
+## Training & Validation
 
-## Usage
-1. Open `Main.m` to replicate the main analysis of the article.
-2. Open `Main_Scenario.m` to run additional scenarios as described in the article's extensions.
+Dans cette partie là, on utilise différents modèles pour travailler sur ce sujet afin de trouver une solution optimale, et précise.
 
-## Contributing
-Contributions are welcome. Please open an issue first to discuss what you would like to change.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+-  **Modèle Simple --- Régression Logistique** : Pour la phase initiale de modélisation, nous avons opté pour la régression logistique afin d'obtenir une première compréhension du traitement de ce sujet. Lors de l'initialisation du modèle, nous avons choisi l'option class_weight='balanced', permettant ainsi au classificateur d'ajuster automatiquement les poids des différentes classes pour éviter tout biais dans le modèle.
+-  **Modèle Non-Supervisé --- Clustering** : Lorsqu'il n'y a pas de Y demandé, on applique d'abord le PCA analyse pour simplifier le modèle et ensuite on utilise K-Means clustering pour trouver la solution optimale.
+-  **Modèle Supervisé --- Randome Forest** : Ici nous avons utilisé la forêt aléatoire et avons testé le suréchantillonnage, le sous-échantillonnage, ainsi que la suppression de variables, en comparant également les méthodes de sélection de paramètres.
