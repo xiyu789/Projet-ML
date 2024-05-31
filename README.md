@@ -21,7 +21,7 @@ Notre approche analytique débute par le prétraitement des données, qui consis
 
 ## Training & Validation
 
-To get started with this project, clone this repository and ensure you have the necessary software installed to run MATLAB `.m` files.
+Dans cette partie là, on utilise différents modèles pour travailler sur ce sujet afin de trouver une solution optimale, et précise.
 
 -  **Modèle Simple --- Régression Logistique** : Pour la phase initiale de modélisation, nous avons opté pour la régression logistique afin d'obtenir une première compréhension du traitement de ce sujet. Lors de l'initialisation du modèle, nous avons choisi l'option class_weight='balanced', permettant ainsi au classificateur d'ajuster automatiquement les poids des différentes classes pour éviter tout biais dans le modèle.
 -  **Modèle Non-Supervisé --- Clustering** : Lorsqu'il n'y a pas de Y demandé, on applique d'abord le PCA analyse pour simplifier le modèle et ensuite on utilise K-Means clustering pour trouver la solution optimale.
