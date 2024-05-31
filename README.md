@@ -15,7 +15,7 @@ Notre approche analytique débute par le prétraitement des données, qui consis
 - Voici le lien: https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022/data
 
 ### Modules:
--  **Préparation et visualisation des données**: on montre d'abord les types de nos variables, et la distribution de notre résultats (défaut / ne pas défaut).
+-  **Préparation et visualisation des données**: on montre d'abord les types de nos variables, et la distribution de notre résultats (fraud / n'est pas fraud).
 -  **Retraitement des données & Pré-processing**: dans cette partie là, on travaille sur la base, en supprimant des variables qui manquent une partie significative de data, analysant les corrélations entre variables, modifiant certains type de variables, etc.
 -  **Training & Validation**: on commence par la préparation des données pour l'entraînement et la validation du modèle de détection de fraude. Les données sont normalisées, les variables catégorielles sont encodées, et les ensembles d'entraînement et de test sont créés en tenant compte du déséquilibre des classes. Ces préparations sont cruciales pour assurer que le modèle de machine learning puisse apprendre efficacement et être évalué de manière juste.
 
