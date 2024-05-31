@@ -11,7 +11,7 @@ Notre approche analytique débute par le prétraitement des données, qui consis
 
 
 ### Data:
-- `Base.xlsx`: Notre base de données pour ce projet "Bank Account Fraud Dataset Suite (NeurIPS 2022)", téléchargé via le site Kaggle. Ce base est générée par un GAN à partir d'un ensemble de données réel sur les fraudes aux comptes bancaires.
+- `BankAcountFraud.xlsx`: Notre base de données pour ce projet "Bank Account Fraud Dataset Suite (NeurIPS 2022)", téléchargé via le site Kaggle. Ce base est générée par un GAN à partir d'un ensemble de données réel sur les fraudes aux comptes bancaires.
 - Voici le lien: https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022/data
 
 ### Modules:
